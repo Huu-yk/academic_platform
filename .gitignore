@@ -1,19 +1,20 @@
-/frontend/.DS_Store
-/frontend/node_modules/
-/frontend/dist/
-/frontend/npm-debug.log*
-/frontend/yarn-debug.log*
-/frontend/yarn-error.log*
-/frontend/test/unit/coverage/
-/frontend/test/e2e/reports/
-/frontend/selenium-debug.log
+/platform_manage/frontend/.DS_Store
+/platform_manage/frontend/node_modules/
+/platform_manage/frontend/dist/
+/platform_manage/frontend/npm-debug.log*
+/platform_manage/frontend/yarn-debug.log*
+/platform_manage/frontend/yarn-error.log*
+/platform_manage/frontend/test/unit/coverage/
+/platform_manage/frontend/test/e2e/reports/
+/platform_manage/frontend/selenium-debug.log
 
 # Editor directories and files
-/frontend/.idea
-/frontend/.vscode
-/frontend/*.suo
-/frontend/*.ntvs*
-/frontend/*.njsproj
-/frontend/*.sln
+/platform_manage/frontend/.idea
+/platform_manage/frontend/.vscode
+/platform_manage/frontend/*.suo
+/platform_manage/frontend/*.ntvs*
+/platform_manage/frontend/*.njsproj
+/platform_manage/frontend/*.sln
 
+/.idea
 db.sqlite3
