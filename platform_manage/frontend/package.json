@@ -15,6 +15,8 @@
   "dependencies": {
     "axios": "^0.17.1",
     "element-ui": "^2.0.8",
+    "fullcalendar": "^3.8.0",
+    "jquery": "^3.2.1",
     "moment": "^2.20.1",
     "vue": "^2.5.2",
     "vue-fullcalendar": "^1.0.9",

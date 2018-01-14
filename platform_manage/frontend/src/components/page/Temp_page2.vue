@@ -1,11 +1,37 @@
 <template>
     <div class="testpage2">
-      <div>
-        <el-button>默认按钮</el-button>
-        <el-button type="primary">主要按钮</el-button>
-        <el-button type="success">成功按钮</el-button>
-        <el-button type="info">信息按钮</el-button>
-        <el-button type="warning">警告按钮</el-button>
+      <div class='calendar_box'>
+        <div id='calendar' class='calendar'></div>
       </div>
     </div>
 </template>
+
+<script>
+export default {
+    data: function() {
+        return {
+
+        }
+    },
+    computed: {
+
+    },
+    methods: {
+
+    },
+    mounted() {
+        $('#calendar').fullCalendar({
+          dayClick: function() {
+              alert('a day has been clicked!');
+          }
+        })
+    }
+}
+</script>
+<style>
+  .calendar_box {
+    width: 80%;
+    height: 70%;
+    margin: 0 100px;
+  }
+</style>

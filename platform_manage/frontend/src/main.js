@@ -4,7 +4,10 @@ import router from './router';
 import axios from 'axios';
 import ElementUI from 'element-ui';
 import 'element-ui/lib/theme-chalk/index.css';    // 默认主题
-import '../static/fontawesome/fontawesome/font-awesome.min.css';
+import './assets/fontawesome/fontawesome/font-awesome.min.css';
+import 'fullcalendar/dist/fullcalendar.css';
+import 'moment/moment.js';
+import 'fullcalendar/dist/fullcalendar.js';
 
 Vue.use(ElementUI);
 Vue.prototype.axios = axios;
